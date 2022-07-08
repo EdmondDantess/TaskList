@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-evenly;
+    padding: 0 10px 10px 10px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px red;
+    position: absolute;
+    margin: 100px 200px;
+}
+
+.taskList {
+    display: block;
+
+}
+
+h2 {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 2px 2px 5px red;
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px red;
+}
+
+input:focus {
+    box-shadow: 3px 3px 10px greenyellow;
+}
+
+li {
+    margin-left: -20px;
+    list-style-type: none
+}
+
+li:hover {
+    background-color: gray;
+    text-shadow: 2px 2px 5px red;
+    box-shadow: 2px 2px 5px red;
+}
